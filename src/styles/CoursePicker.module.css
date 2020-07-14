@@ -1,0 +1,36 @@
+.courseSection {
+  background-color: rgb(241, 255, 240) !important;
+}
+
+.card {
+  box-shadow: 0px 0px 15px rgb(167, 167, 167);
+}
+.courseCard {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.courseCardText {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.courseCardText p {
+  font-weight: 400 !important;
+}
+.cardBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.seeMoreBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+#coursePicker {
+  scroll-behavior: smooth;
+}

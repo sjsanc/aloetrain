@@ -1,0 +1,39 @@
+.heroWrapper {
+  min-height: 600px;
+}
+
+.heroText {
+}
+.heroText h4 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 100;
+}
+.heroText h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 900;
+  position: relative;
+}
+.heroText h3::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: rgb(179, 253, 190);
+  left: 0;
+  bottom: 0;
+  height: 0.7em;
+  z-index: -1;
+}
+.heroText h6 {
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 15px 0 !important;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+.heroImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroImage img {
+  width: 400px;
+}

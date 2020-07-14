@@ -1,0 +1,11 @@
+.formWrapper {
+  max-width: 420px;
+  margin: 10px !important;
+}
+.formWrapper h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+}
+.contactBtn {
+  margin: 10px 0 !important;
+}

@@ -1,0 +1,18 @@
+footer {
+  background-color: rgb(228, 228, 228);
+}
+p,
+h4 {
+  font-family: "Noto Sans JP" !important;
+  margin-bottom: 10px !important;
+}
+a,
+p {
+  font-weight: 100 !important;
+}
+.brandCard {
+  width: 100%;
+}
+.brandImage {
+  width: 150px;
+}

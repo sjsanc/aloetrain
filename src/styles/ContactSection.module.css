@@ -1,0 +1,44 @@
+.contactGridWrapper {
+  margin: 80px 0;
+}
+.contactTextWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactText {
+  display: flex;
+  flex-direction: column;
+}
+.contactText p {
+  padding: 2px 0;
+}
+.contactHighlight {
+  font-family: "Noto Sans JP", sans-serif;
+  position: relative;
+  margin-bottom: 30px;
+}
+.contactHighlight::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: rgb(179, 253, 190);
+  left: 10px;
+  bottom: 0;
+  height: 0.9em;
+  z-index: -1;
+}
+
+.contactWrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flagIcon {
+  height: 14px;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-right: 5px;
+}
